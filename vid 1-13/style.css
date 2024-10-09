@@ -1,0 +1,36 @@
+*{margin: 0px;}
+.wrapper{width: 80%;margin: auto;}
+section{margin-top: 2%;}
+footer{margin: 3%;text-align: center;}
+header img{width: 100px;border: 1px ;float: left;}
+header h1{margin-left: 5%;}
+nav{clear: both;}
+nav ul{margin-top: 10%;}
+section p{margin-top: 2%;}
+.content{margin-top: 3%;}
+#paragraf{font-family: Arial, Helvetica, sans-serif;}
+.huruf{font-size: 30px;}
+.warna{background: cornflowerblue;}
+.bentuk{font-style: italic;}
+.ht{font-style:initial;}
+a{text-decoration: none;}
+ul{font-family: Arial, Helvetica, sans-serif;background: darkorange;
+list-style: none; margin:0; padding-left: 0;}    
+ul li{color: #fff;background: darkorange;border:1px blue ;
+display:inline-block;padding: 10px;position: relative;}
+ul li a{color: #fff;}
+ul li:hover{background: red;cursor: pointer;}
+ul li ul{background: orange;visibility: hidden;position: absolute;
+margin-top: 0.5rem;left: 0;display: none;}
+ul li:hover>ul,
+ul li ul:hover{visibility: visible;display:block;}
+ul li ul li{clear: both;width: 100%;}
+@media only screen and (max-width:600px){
+  body {
+     background: salmon;
+     font-family:'Courier New', Courier, monospace;
+  }
+}
+.blud{background-color: orange;}
+section ol{text-align: center;}
+ol{list-style: none;}
